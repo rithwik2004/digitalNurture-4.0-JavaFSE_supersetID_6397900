@@ -1,0 +1,18 @@
+The Big O notation describes the upper bound of an algorithm's rumtime in terms of input size n. It tells us how an algorithm scales and helps in performance prediction and comparision. 
+Time Complexity of the search algorithms used are as follows:
+Linear search = O(n)
+Binary search = O(log n), but requires sorting.
+
+For the E commerce application, 
+-> when the dataset is large enough and the searching is performed frequently, Binary search is the better option as it is faster while compiling compared to linear search.
+-> when the dataset is small and the searching is performed once in a while, then linear search is the best option as it is simple compared to Binary search.
+
+Best, average and worst case scenarios of the search algorithms used:
+-> Linear Search 
+   Best case - O(1)
+   average case - O(n/2) 
+   worst case - O(n)
+-> Binary Search
+   Best case - O(1)
+   average case - O(log n)
+   worst case - O(log n)

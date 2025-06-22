@@ -1,0 +1,10 @@
+Recursion is a programming technique where a method calls itself to solve smaller sub-problems of the original problem.
+Two types of recursion used in the program. The time complexity of the techniques are as follows:
+->Naive Recursion
+  O(n) time  complexity
+  O(n) space complexity
+->Memoized Recursion
+  O(n) time complexity
+  O(n) space complexity
+  It is faster compared to Naive Recursion as it avoids redundant recalculations. 
+   
