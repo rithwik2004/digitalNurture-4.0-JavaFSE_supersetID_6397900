@@ -1,0 +1,5 @@
+A teardown method is a method that is executed after each test method, or after all tests, to release resources like:
+
+-> Closing DB connections
+-> Resetting test data
+-> Cleaning up memory/state
