@@ -1,0 +1,9 @@
+Code Comparison
+-> In the hibernate code, sessions, transactions and the exception handling is all done manually.
+-> In the spring data JPA, no need to manage sessions, open or close connections, manually begin or commit transactions.
+
+When to use what?
+
+Need full control over queries, sessions, performance tuning	        Hibernate
+Want to write portable code with any JPA provider               	JPA
+Want rapid development with minimal boilerplate for 90% use cases	Spring Data JPA 
